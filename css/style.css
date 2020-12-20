@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    font-family: PT Sans;
+    background-color: #edece6;
+}
+
+h1, #subtitle{
+    text-align: center;
+    font-size: 75px;
+    opacity: 0.3;
+    margin-bottom: 0px;
+}
+#subtitle {
+    margin: 0px;
+    font-size: 20px;
+}
+.Input {
+    margin-top: 50px;
+    text-align: center;
+}
+#userInput {
+    outline: none;
+    border: 1px solid gray;
+    background-color: inherit; 
+    color: gray;
+    font-size: 20px;
+    width: auto;
+    box-shadow: 3px 3px 25px black;
+}
+
+#Completed-Title {
+    font-size: 40px;
+}
+
+#To_do {
+    border: 1px solid gray;
+    margin-top: 20px;
+    box-shadow: 3px 3px 25px black;
+}
+div {
+    display: flex;
+    text-align: center;
+    width: auto;
+    padding: 10px;
+}
+div input {
+    cursor: pointer;
+    
+}
+label {
+    color: gray;
+    
+}
+#completed {
+    border: 1px solid gray;
+    margin-top: 5px;
+    text-decoration: line-through;
+    box-shadow: 3px 3px 25px black;
+}
