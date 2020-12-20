@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
 body {
     font-family: PT Sans;
     background-color: #edece6;
@@ -38,6 +37,17 @@ h1, #subtitle{
     margin-top: 20px;
     box-shadow: 3px 3px 25px black;
 }
+#deleteTrash {
+    position: relative;
+    height: 20px;
+    display: flex;
+    margin-left: auto;
+    transition: 0.4s;
+}
+#deleteTrash:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 div {
     display: flex;
     text-align: center;
@@ -46,7 +56,7 @@ div {
 }
 div input {
     cursor: pointer;
-    
+    box-shadow: 3px 3px 20px gray;
 }
 label {
     color: gray;

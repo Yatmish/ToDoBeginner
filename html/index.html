@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.dryicons.com%2Fuploads%2Ficon%2Fpreview%2F6149%2Ficon_grid_1x_c0c849ea-d035-4128-8f6c-c2a40a87aefc.png&f=1&nofb=1">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trying to do a To Do List</title>
+    <title>To Do List</title>
     
 </head>
 <body>
-    
     <header>
         <h1>To Do</h1>
         <p id="subtitle">A <em>To Do List</em> made by Yatmish</p>
     </header>
-
     <main>
         <section class="Input">
-            <input id='userInput' type="text", onkeydown='createToDo(event)', >
+            <input id='userInput' type="text", onkeydown='createToDo(event)', maxlength="160">
         </section>
-
-        <section id="To_do">
-        </section>
-
+        <section id="To_do"></section>
         <h1 id='Completed-Title'>Completed</h1>
-
-        <section id="completed">
-        </section>
+        <section id="completed"></section>
     </main>
-
-
     <script src="../js/main.js"></script>
 </body>
 </html>
